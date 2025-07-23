@@ -161,3 +161,32 @@ header {
     font-weight: 600;
     border: none;
 }
+
+/* --trusted-seller-- */
+
+.trusted-seller {
+    display: flex;
+    padding: 80px 70px;
+    gap: 60px;
+    align-items: center;
+}
+
+.seller {}
+
+.trusted-logo {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 1730px;
+    left: 440px;
+}
+
+.seller-heading {
+    font-size: 3.25rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.seller-content ul {
+    color: rgba(0, 0, 0, 0.5);
+}

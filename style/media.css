@@ -23,6 +23,7 @@
     }
 
     /* --banner-section-- */
+
     .banner {
         margin-top: 40px;
         flex-direction: column-reverse;
@@ -84,5 +85,25 @@
 
     }
 
+    /* --trusted-seller- */
+
+    .trusted-seller {
+        flex-direction: column;
+        padding: 20px 30px;
+        gap: 20px;
+    }
+
+    .seller {
+        height: 300px;
+        width: 400px;
+    }
+
+    .trusted-logo {
+        display: none;
+    }
+
+    .seller-heading {
+        font-size: 1.25rem;
+    }
 
 }
