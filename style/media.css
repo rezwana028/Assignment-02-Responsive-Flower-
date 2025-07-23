@@ -1,0 +1,51 @@
+/* --mobile-- */
+
+@media screen and (max-width:576px) {
+
+    header {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    /* ---navbar--- */
+
+    .navbar {
+        padding: 15px 30px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 70px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    /* --banner-section-- */
+    .banner {
+        margin-top: 40px;
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        padding: 30px;
+
+    }
+
+    .banner-heading {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .banner-para {
+        margin: 20px 0 0 0;
+    }
+
+
+
+    .banner-img {
+        height: 100%;
+        width: 100%;
+    }
+}
