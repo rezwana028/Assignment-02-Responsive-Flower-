@@ -89,13 +89,13 @@
 
     .trusted-seller {
         flex-direction: column;
-        padding: 20px 30px;
+        padding: 20px 20px;
         gap: 20px;
     }
 
     .seller {
         height: 300px;
-        width: 330px;
+        width: 375px;
     }
 
     .trusted-logo {
