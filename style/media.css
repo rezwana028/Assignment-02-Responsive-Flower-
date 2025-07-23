@@ -39,7 +39,7 @@
     }
 
     .banner-para {
-        margin: 20px 0 0 0;
+        font-size: 1rem;
     }
 
 
@@ -48,4 +48,41 @@
         height: 100%;
         width: 100%;
     }
+
+
+    /* --our-plants-- */
+
+
+    .our-plants {
+        padding: 20px;
+    }
+
+    .our-plants-heading {
+        font-size: 1.3rem;
+
+    }
+
+    .our-plants-cart {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 30px 0;
+    }
+
+    .img-cart img {
+        height: 60%;
+        width: 100%;
+    }
+
+    .flower-name {
+        font-size: 1rem;
+
+    }
+
+    .price {
+        font-size: 1rem;
+
+    }
+
+
 }
