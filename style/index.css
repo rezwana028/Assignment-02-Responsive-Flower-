@@ -46,7 +46,8 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 header {
@@ -278,4 +279,46 @@ header {
     background-blend-mode: multiply;
     color: white;
     height: 420px;
+}
+
+/* colorful-bunch-section */
+
+.colorful-bunch {
+    background-image: url(../assets/news-letter-bg.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.bunch-heading {
+    color: white;
+    font-size: 3.125rem;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.input-field {
+    display: flex;
+    gap: 0;
+}
+
+.input-email {
+    padding: 10px;
+    width: 100%;
+}
+
+.submit-btn {
+    width: 200px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #E95A08;
 }
