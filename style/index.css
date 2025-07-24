@@ -209,7 +209,7 @@ header {
     gap: 20px;
     align-items: center;
     text-align: center;
-    margin: 50px 0;
+    margin: 70px 0;
     justify-content: center;
 
 
@@ -321,4 +321,34 @@ header {
     font-size: 1rem;
     font-weight: 600;
     background-color: #E95A08;
+}
+
+/* footer */
+
+.footer-content {
+    display: flex;
+    gap: 50px;
+    padding: 20px 80px;
+    align-items: flex-start;
+
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.menu-ftr {
+    list-style: none;
+}
+
+.item-ftr {
+    margin-bottom: 20px;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
 }

@@ -89,13 +89,13 @@
 
     .trusted-seller {
         flex-direction: column;
-        padding: 20px 20px;
+        padding: 20px;
         gap: 20px;
     }
 
     .seller {
-        height: 300px;
-        width: 340px;
+        height: 100%;
+        width: 100%;
     }
 
     .trusted-logo {
@@ -110,7 +110,7 @@
 
     .latest-deal {
 
-        padding: 30px;
+        padding: 20px;
     }
 
     .latest-img-collage {
@@ -133,7 +133,7 @@
 
     .latest-deal-image {
         height: 200px;
-        width: 340px;
+        width: 360px;
     }
 
     /* colorful-bunch-section */
@@ -159,5 +159,30 @@
     .submit-btn {
         width: 120px;
     }
+
+    /* footer */
+
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 30px;
+
+    }
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .menu-ftr {
+        padding: 0;
+        margin-bottom: -10px;
+    }
+
+    .item-ftr {
+        margin-bottom: 10px;
+    }
+
 
 }
