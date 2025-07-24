@@ -106,4 +106,35 @@
         font-size: 1.25rem;
     }
 
+    /* latest-deal */
+
+    .latest-deal {
+
+        padding: 30px;
+    }
+
+    .latest-img-collage {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+    }
+
+    .zabo-img-heading {
+
+        font-size: 1.25rem;
+
+    }
+
+    .zabo a {
+        font-size: 1rem;
+    }
+
+    .latest-deal-image {
+        height: 200px;
+        width: 340px;
+    }
+
+
 }

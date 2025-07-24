@@ -190,3 +190,92 @@ header {
 .seller-content ul {
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* latest-deals */
+
+.latest-deal {
+
+    padding: 30px 70px;
+}
+
+.latest-deal-main {
+    text-align: center;
+}
+
+.latest-img-collage {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+    justify-content: center;
+
+
+}
+
+.mini-img-heading {
+    margin: 0;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.zabo-img-heading {
+    margin: 0;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+.zabo a {
+    font-size: 1.5rem;
+}
+
+.latest-deal-image {
+    border-radius: 0.8rem;
+}
+
+.latest-deal-image a {
+    color: white;
+    font-weight: 600;
+}
+
+.mini-img div,
+.zabo div {
+    position: relative;
+    top: 40%;
+}
+
+.bloom {
+    background-image: url(../assets/deal-bloom.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-position: center;
+    background-blend-mode: multiply;
+
+    height: 200px;
+    margin-bottom: 20px;
+
+
+}
+
+.ana {
+    background-image: url(../assets/deal-ana.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-position: center;
+    background-blend-mode: multiply;
+    color: white;
+    height: 200px;
+
+
+}
+
+.zabo {
+    background-image: url(../assets/deal-zabo.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-position: center;
+    background-blend-mode: multiply;
+    color: white;
+    height: 420px;
+}
